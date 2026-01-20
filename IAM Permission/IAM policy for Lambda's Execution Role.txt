@@ -1,0 +1,19 @@
+{
+    "Version":"2012-10-17",
+    "Statement" : [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            " Action": [
+                "dynamodb : Putltem" ,
+                "dynamodb : Deleteltem" ,
+                "dynamodb : Getltem " ,
+                "dynamodb : Scan" ,
+                "dynamodb : Query"
+                "dynamodb : Updateltem",
+            ],
+            "Resource": "arn: aws : Enter the ARN for your DynamoDB table"
+        }
+    ]
+    
+}
